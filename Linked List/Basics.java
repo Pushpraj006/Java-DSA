@@ -36,7 +36,7 @@ public class hello{
             return;
         }
 
-        newNode.next = tail;
+        tail.next = newNode;
         tail = newNode;
     }
 
